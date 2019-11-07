@@ -1,10 +1,16 @@
 #!/usr/bin/env python
+import json
+import pickle
 from collections import Counter
 from typing import List, Dict, Any
 
 
 class Serializable(object):
-    pass
+    def dump():
+        pass
+
+    def load():
+        pass
 
 
 class JSONMixin(Serializable):
